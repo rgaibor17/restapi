@@ -1,7 +1,7 @@
 const admin = require('firebase-admin');
- const db = admin.firestore();
+const db = admin.firestore();
 
- exports.createItem = async (req, res) => {
+exports.createItem = async (req, res) => {
 
   /* 
         #swagger.tags = ['Items']
@@ -29,7 +29,7 @@ const admin = require('firebase-admin');
    }
 };
 
- exports.getAllItems = async (req, res) => {
+exports.getAllItems = async (req, res) => {
 
   /* 
         #swagger.tags = ['Items']
